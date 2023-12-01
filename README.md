@@ -9,23 +9,34 @@
         Я выбрал проект на Python для тренировки работы с Git.
 
 1. Инициализируем локальный репозиторий:
+ 
    bash
+
    mkdir GitStart
+
    cd GitStart
+
    git init
+
 
 2. Создаем непустой удаленный репозиторий на платформе Git с именем gitStart и файлом README.md.
 
+
 3. Подключаем локальный репозиторий к удаленному репозиторию:
- 
+
    bash
+
    git remote add origin https://github.com/GTrainee12/gitStart
+
 
 4. Отправляем код проекта в удаленный репозиторий:
  
    bash
+
    git add .
+
    git commit -m "Initial commit"
+
    git push -u origin master
 
 Здесь `.` добавляет все файлы в текущей директории в индекс.
